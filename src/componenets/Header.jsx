@@ -4,10 +4,10 @@ export default function Header(){
     const currentPage = useLocation().pathname
 
     return(
-        <header>
+        <header className='px-3'>
             <h1>
                 <Link
-                to='/'>
+                to='/' className='link-underline link-underline-opacity-0'>
                     June Moon
                 </Link>
             </h1>
