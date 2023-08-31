@@ -6,7 +6,6 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 // import in components
-import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Home/>
+                element: <Portfolio/>
             },
             {
                 path: '/About',
@@ -29,10 +28,6 @@ const router = createBrowserRouter([
             {
                 path: '/Contact',
                 element: <Contact/>
-            },
-            {
-                path: '/Portfolio',
-                element: <Portfolio/>
             },
             {
                 path: '/Resume',

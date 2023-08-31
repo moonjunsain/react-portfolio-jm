@@ -6,7 +6,7 @@ function App() {
   return(
     <>
       <Header/>
-      <main>
+      <main className='main-background'>
         <Outlet/>
       </main>
       <footer>

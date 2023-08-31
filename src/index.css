@@ -1,20 +1,61 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#root, html{
+  background-color: #F4F1DE;
+}
+
+.header-background{
+  background-color: #76949F;
+}
+
+.main-background{
+  background-color: #F4F1DE;
 }
 
 .project-container{
   display: flex;
   justify-content: center;
+  height: 80vh;
+  flex-wrap: wrap;
 }
 
 .project{
-  margin: 1rem;
-  width: 40vw;
+  transition: all;
+  transition-duration: 0.5s;
+  border: solid 10px #3D405B;
+  border-radius: 2%;
 }
 
 .project:hover{
-  opacity: 60%;
-  cursor: pointer;
+  opacity: 50%;
+}
+
+.my-face{
+  width: 15vw;
+}
+
+.project-title{
+  padding: 1%;
+  color: #3D405B;
+  font-size: 30px;
+  background-color: #F2CC8F;
+}
+
+.custom-link{
+  color: #fbf9ea !important;
+}
+
+.custom-link:hover,
+.custom-link-footer:hover{
+  color: #F2CC8F !important;
+}
+
+.custom-link-footer{
+  color: #3D405B !important;
 }

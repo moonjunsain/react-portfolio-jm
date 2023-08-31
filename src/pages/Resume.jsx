@@ -1,8 +1,6 @@
-import { useState } from 'react'
-
 export default function Resume(){
     return(
-        <div className='m-3'>
+        <div className='m-3 list-group list-group-flush'>
             <h2>My Resume</h2>
             <h3>Front End Development</h3>
             <ul className='mx-3'>
