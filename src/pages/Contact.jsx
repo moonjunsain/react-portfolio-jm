@@ -26,17 +26,15 @@ export default function Contact() {
 
     const checkValidation = (e)=>{
         const {id, value} = e.target
-        const newValidation = {email: validationMessage.email, name: validationMessage.name, text: validationMessage.text}
+        const newValidation = {...validationMessage}
         if(!value){
             if(id == 'emailInput'){
                 newValidation.email = 'Email is required '
             }
-
-            if(id == 'nameInput'){
+            else if(id == 'nameInput'){
                 newValidation.name = 'Name is required '
             }
-
-            if(id == 'textInput'){
+            else if(id == 'textInput'){
                 newValidation.text = 'Message is required '
             }
 
@@ -44,23 +42,26 @@ export default function Contact() {
             if(id == 'emailInput'){
                 newValidation.email = ''
             }
-
-            if(id == 'nameInput'){
+            else if(id == 'nameInput'){
                 newValidation.name = ''
             }
-
-            if(id == 'textInput'){
+            else if(id == 'textInput'){
                 newValidation.text = ''
             }
-
         }
         setValidation(newValidation)
     }
 
     const handleFormSubmit = (e)=>{
         e.preventDefault()
+        const newValidation = {}
         if(email && text && name){
-            return;
+            setValidation(newValidation)
+            return
+        }else{
+            newValidation.email = 'Please Enter all necessary fields '
+            setValidation(newValidation)
+            return
         }
     }
 
