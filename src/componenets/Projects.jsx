@@ -41,8 +41,8 @@ export default function Projects({ projects }) {
                         <p className="project-title">
                             {name} {' '}
                             {/* depending on hoverstatus, show or hide the element */}
-                            <a href={github} className="custom-link-portfolio" style={hoverStatus[index]? hide: show}>Github </a>
-                            <a href={live} className="custom-link-portfolio" style={hoverStatus[index]? hide: show}>Live </a>
+                            <a href={github} className="custom-link-portfolio" target="_blank" rel="noopener noreferrer" style={hoverStatus[index]? hide: show}>Github </a>
+                            <a href={live} className="custom-link-portfolio" target="_blank" rel="noopener noreferrer" style={hoverStatus[index]? hide: show}>Live </a>
                         </p>
                     </section>
                 );
