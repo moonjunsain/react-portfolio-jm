@@ -1,6 +1,6 @@
 export default function Resume(){
     return(
-        <div className='m-3 list-group list-group-flush'>
+        <div className='m-3 resume'>
             <h2>My Resume</h2>
             <h3>Front End Development</h3>
             <ul className='mx-3'>
@@ -22,6 +22,9 @@ export default function Resume(){
                 <li><h4>MongoDB</h4></li>
                 <li><h4>mongoose</h4></li>
             </ul>
+            <a className="btn btn-primary" href="June-Moon.pdf" download={"June_Moon.pdf"}>
+                Download My Resume
+            </a>
         </div>
     )
 }

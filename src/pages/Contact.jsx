@@ -24,6 +24,7 @@ export default function Contact() {
         
     }
 
+    // checks if the necessary field is filled
     const checkValidation = (e)=>{
         const {id, value} = e.target
         const newValidation = {...validationMessage}
@@ -52,6 +53,7 @@ export default function Contact() {
         setValidation(newValidation)
     }
 
+    // handles form submission
     const handleFormSubmit = (e)=>{
         e.preventDefault()
         const newValidation = {}

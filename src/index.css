@@ -59,3 +59,17 @@
 .custom-link-footer{
   color: #3D405B !important;
 }
+
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-link-portfolio{
+  color: #3D405B
+}
+
+.custom-link-portfolio:hover{
+  color: azure;
+}
