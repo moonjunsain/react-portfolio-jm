@@ -2,8 +2,8 @@
 
 ## Technology Used
 - javascript
-- node js
-- mongoose
+- vite
+- react
 
 ## Description 
 This is a product of a challenge provided by UC Berkeley Extension Coding Bootcamp
