@@ -13,10 +13,10 @@ export default function Portfolio(){
     const projects = [
         new Project('CatFish', 'cat-fish.jpg', 'https://github.com/kaylaasana/CatFish', 'https://kaylaasana.github.io/CatFish/'),
         new Project("The Monkey's Cup", 'monkey-cup.png', 'https://github.com/DSHowarth/Escape-Room-Storefront', 'https://sheltered-scrubland-47894-17ae2d63c103.herokuapp.com/'),
+        new Project("BlueFin", 'bluefin.png', 'https://github.com/kaylaasana/BlueFin','https://murmuring-thicket-14542-74d2838aa204.herokuapp.com/' ),
         new Project("Weather Dashboard", "weather-dashboard.jpg", "https://github.com/moonjunsain/weather-dashboard", "https://moonjunsain.github.io/weather-dashboard/"),
         new Project("Hero RPG", "hero-rpg.jpg", "https://github.com/moonjunsain/hero-rpg", "https://moonjunsain.github.io/hero-rpg/"),
         new Project("Work Scheduler", "work-day.png", "https://github.com/moonjunsain/work-day-scheduler", "https://moonjunsain.github.io/work-day-scheduler/"),
-        new Project("Password Gen", "password-gen.png", "https://github.com/moonjunsain/password-generator", "https://moonjunsain.github.io/password-generator/"),
     ]
 
 
